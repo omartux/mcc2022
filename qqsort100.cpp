@@ -16,7 +16,7 @@ void swap(int* a, int* b)
 // partition the array using last element as pivot
 int partition (int arr[], int low, int high) 
 { 
-    int pivot = arr[high/2];    // pivot mitad
+    int pivot = arr[high];    // pivot high
     //int pivot = arr[high]; pivot mayor
     //int pivot = arr[low]; pivot menor, falta random
     int i = (low - 1);   
